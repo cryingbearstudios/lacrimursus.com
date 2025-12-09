@@ -1,0 +1,9 @@
+baseURL = 'http://lacrimursus.com/'
+languageCode = 'en-us'
+title = 'Lacrimursus'
+theme = 'custom'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+disableLanguages = []
