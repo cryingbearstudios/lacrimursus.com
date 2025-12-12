@@ -7,3 +7,15 @@
 .profile img {
   border-radius: 0;
 }
+
+@font-face {
+  font-family: 'Funkrocker';
+  src: url('/fonts/Funkrocker.otf') type('truetype');
+}
+
+.logo a {
+  font-style: oblique;
+  font-family: Funkrocker;
+  letter-spacing: 0.075em;
+  color: #fe0f24;
+}

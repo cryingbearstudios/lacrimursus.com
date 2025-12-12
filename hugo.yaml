@@ -24,9 +24,12 @@ params:
   ShowPageNums: true
   ShowToc: true
 
+  label:
+    icon: '/images/logo-alpha.png'
+
   profileMode:
     enabled: true
-    title: "<Title>" # optional default will be site title
+    title: " " #"<Title>" # optional default will be site title
     # subtitle: "This is subtitle"
     imageUrl: "/images/logo-alpha.png" # optional
     # imageTitle: "<title of image as alt>" # optional
@@ -61,6 +64,13 @@ languages:
   en:
     languageName: ":us:"
     weight: 1
+
+    menu:
+      main:
+        - name: Videos
+          url: "https://youtube.com/@lacrimursus"
+        - name: Streams
+          url: "https://twitch.tv/lacrimursus"
 
   de:
     languageName: ":de:"
