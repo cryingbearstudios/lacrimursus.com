@@ -1,0 +1,9 @@
+[data-theme="dark"] body.list {
+    background-image: url('/images/background.svg');
+    background-size: cover;
+    background-position: right;
+}
+
+.profile img {
+  border-radius: 0;
+}

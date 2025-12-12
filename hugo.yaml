@@ -1,0 +1,67 @@
+baseURL: https://lacrimursus.com
+languageCode: en-us
+title: Lacrimursus
+theme: [ PaperMod ]
+
+params:
+  environment: development
+  disableThemeToggle: true
+  defaultTheme: dark
+  buildDrafts: false
+  buildFuture: false
+  buildExpired: false
+  enableEmoji: true
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    # subtitle: "This is subtitle"
+    imageUrl: "/images/logo-alpha.png" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "twitch"
+      url: "https://twitch.tv/lacrimursus"
+    - name: "youtube"
+      url: "https://youtube.com/@lacrimursus"
+    - name: "instagram"
+      url: "https://www.instagram.com/lacrimursus/"
+    - name: "bluesky"
+      url: "https://bsky.app/profile/lacrimursus.com"
+    - name: "x"
+      url: "https://x.com/lacrimursus"
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    languageName: ":us:"
+    weight: 1
+
+  de:
+    languageName: ":de:"
+    weight: 2
