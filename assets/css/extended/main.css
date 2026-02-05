@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Funkrocker';
-  src: url('/fonts/Funkrocker.otf') type('truetype');
+  src: url('/fonts/Funkrocker.otf') format('truetype');
 }
 
 .logo a {
