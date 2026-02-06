@@ -33,8 +33,8 @@ params:
     # subtitle: "This is subtitle"
     imageUrl: "/images/logo-alpha.png" # optional
     # imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
     # buttons:
     #   - name: Archive
     #     url: "/archive"
