@@ -1,10 +1,15 @@
 baseURL: https://lacrimursus.com
 languageCode: en-us
 title: Lacrimursus
+enableGitInfo: true
 theme: [ PaperMod ]
 
+services:
+  googleAnalytics:
+    id: G-YRTVJK3ER1 
+
 params:
-  environment: development
+  environment: production
   disableThemeToggle: true
   defaultTheme: dark
   buildDrafts: false
