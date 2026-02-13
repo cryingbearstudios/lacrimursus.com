@@ -17,7 +17,7 @@ params:
   buildExpired: false
   enableEmoji: true
 
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
@@ -65,17 +65,17 @@ outputs:
     - RSS
     - JSON
 
+menu:
+  main:
+    - name: Videos
+      url: "https://youtube.com/@lacrimursus"
+    - name: Streams
+      url: "https://twitch.tv/lacrimursus"
+
 languages:
   en:
     languageName: ":us:"
     weight: 1
-
-    menu:
-      main:
-        - name: Videos
-          url: "https://youtube.com/@lacrimursus"
-        - name: Streams
-          url: "https://twitch.tv/lacrimursus"
 
   de:
     languageName: ":de:"
