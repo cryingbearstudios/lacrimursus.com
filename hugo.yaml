@@ -10,6 +10,9 @@ services:
     id: G-YRTVJK3ER1 
 
 params:
+  author:
+    name: Lacrimursus
+    email: lacrimursus@gmail.com
   environment: production
   disableThemeToggle: true
   defaultTheme: dark
