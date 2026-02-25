@@ -6,6 +6,7 @@ theme: [ PaperMod ]
 
 services:
   googleAnalytics:
+    # cspell: disable-next-line
     id: G-YRTVJK3ER1 
 
 params:
@@ -26,6 +27,7 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
+  # cspell: disable-next-line
   ShowPageNums: true
   ShowToc: true
 
