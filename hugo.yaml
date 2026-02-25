@@ -13,7 +13,7 @@ params:
   author:
     name: Lacrimursus
     email: lacrimursus@gmail.com
-  environment: production
+  environment: development
   disableThemeToggle: true
   defaultTheme: dark
   buildDrafts: false
